@@ -296,7 +296,11 @@ fn reverse_shell(context: &mut Context) -> Result<()> {
         "Reverse shell".white().bold(),
         "stdout".green().bold()
     );
-    println!("{}", format!("→ {}", stdout.replace("\n", "\n→ ")).white());
+    println!(
+        "{} {}",
+        "→".white(),
+        stdout.replace("\n", &format!("\n{} ", "→".white()))
+    );
 
     Ok(())
 }
