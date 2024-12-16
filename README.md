@@ -20,7 +20,7 @@ Rekoobe Analyzer supports both "plain" ethernet frames and IP packets captured u
 
 ## Attribution
 
-This repo is based off of [alexander-utkov's](https://github.com/alexander-utkov) rekoobe-analyzer written in Python, however the original repository seems to have vanished
+This repo is based off of [alexander-utkov's](https://github.com/alexander-utkov) rekoobe-analyzer written in Python, ~~however the original repository seems to have vanished~~ the original repository was hidden because of a CTF challenge by TryHackMe, during which this repo was made as an alternative, but subsequently also hidden until January to let people solve the challenge themselves without tooling.
 
 ## License
 
